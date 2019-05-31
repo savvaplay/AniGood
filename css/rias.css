@@ -1,0 +1,272 @@
+body{
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js{
+    height: 100%;
+    background-color: brown;
+}
+
+
+
+/*Футер*/
+
+.footer
+.footer a{
+    color: #fff;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.social li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.footer-year{
+    text-align: center;
+    font-size: 20px;
+}
+
+.social li a:hover{
+    color: #f05f40;
+}
+
+.social{
+    text-align: center;
+    font-size: 30px;
+}
+
+/*CommandModule*/
+
+.commandModule{
+    border: 1px solid #42EC0C; 
+    padding: 5px;
+    background-color: #fff;
+    width: 100px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+/*CommandName*/
+
+.commandName{
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+/*commandDescription*/
+
+.commandDescription{
+    font-size: 16px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.command:hover{
+    color: #857054;
+}
+
+#title-2{
+    font-size: 40px; 
+}
+
+#team-2{
+    font-size: 40px;
+}
+/*Menu*/
+
+.menu *{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-top: 20px;
+    font-family: Cuprum, Arial, Helvetical, sans-serif;
+}
+
+.menu ul,
+.menu ol{
+    list-style: none;
+}
+
+.menu > ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu > ul li a{
+    display: block;
+    background: #ececed;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.menu > ul li{
+    position: relative;
+    border-right: 1px solid #c7c8ca;
+}
+
+
+.menu > ul li:first-child{
+    border-left: 1px solid #b2b3b5;
+}
+
+.menu > ul li: last-child{
+    border-right: 1px solid#babbbb;
+}
+
+.menu li a:hover{
+    background: #454547;
+    color: #fff;
+    box-shadow: 1px
+    5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*Search*/
+
+/*.inp1{
+    text-align: center; /*выравнивание по центру
+    width: 5px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+}*/
+
+.inp1{
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+#search-text, button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+#search-text {
+  width: 100%;
+  height: 42px;
+  background: #F9F0DA;
+  padding-left: 15px;
+}
+button {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #F15B42;
+  cursor: pointer;
+}
+button:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #F9F0DA;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/*Прелоадер*/
+
+.pre1, .pre1:before,  .pre1:after{
+    border: 5px solid transparent;
+    border-radius: 50%;
+}
+
+.pre1{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+    border-top-color: #bac900;
+    -webkit-animation: spin 1s infinite linear;
+    animation: spin 1s infinite linear;
+}
+
+.pre1:before,  .pre1:after{
+    content: '';
+    position: absolute;
+}
+
+.pre1:before{
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-top-color: #00abd4;
+    -webkit-animation: spin 1s infinite linear;
+    animation: spin 2s infinite linear;
+}
+
+.pre1:after{
+    top: 23px;
+    left: 23px;
+    right: 23px;
+    bottom: 23px;
+    border-top-color: #ff1400;
+    -webkit-animation: spin 1s infinite linear;
+    animation: spin 3s infinite linear;
+}
+
+@-webkit-keyframes spin{
+    from{
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+}
+to{  
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+ }
+}
+
+@keyframes identifier{
+        from{
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+}
+to{  
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+ }
+}
+
+@-webkit-keyframes spin{
+    from{
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+}
+to{  
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+ }
+}
+
+@keyframes identifier{
+        from{
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+}
+to{  
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+ }
+}
